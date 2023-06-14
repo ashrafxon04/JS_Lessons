@@ -241,8 +241,23 @@
 //     : console.log("Bir xonali toq son")
 //   : console.log("1000 dan katta son kiritildi");
 
+//======================================================================================================
+//no11
 
+// let browser = 'Chrome';
+// if( browser === 'Edge'){
+//     console.log('You have got the Edge');
+// }else if ( browser === 'Chrome' , 'Firefox' , 'Safari' , 'Opera'){
+//     console.log('Okey we support this browsers too');
+// }else{
+//     console.log('We hope thet this page looks ok!');
+// }
 
+//===
+//ternary
 
-
-
+// let browser = 'Edge'
+// browser === 'Edge' ? console.log('You have got the Edge'):
+// browser === 'Chrome' , 'Firefox' , 'Safari' , 'Opera'?
+// console.log('Okey we support this browsers too') :
+// console.log('We hope thet this page looks ok!')
