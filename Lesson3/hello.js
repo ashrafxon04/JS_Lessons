@@ -1,0 +1,175 @@
+// nullish => mantiqiy operator
+// || => or (mantiqiy qo'shish)
+// && => and (mantiqiy ko'paytirish)
+// 1
+// console.log(true || true); // true
+// console.log(true && true); // true
+// console.log(true ?? true); // true
+// undefined yoki null
+// console.log(undefined ?? true); // true
+// console.log(null ?? true); // true
+// console.log(false ?? true); // false
+// console.log(0 ?? true); // 0
+// console.log(5 ?? true); // 5
+// console.log(false ?? true); // false
+// console.log(false || true); // true
+// console.log(false && true); // false
+// console.log(5 && 6 && 0); // falseni qidiradi
+// Falsy => 0, undefined, null, NaN, "", false
+// True => {}, true, number, " "
+// console.log("webbrain" ?? "academy"); // webbrain
+// console.log(("webbrain" ?? "academy") && "digital"); // digital
+// if
+// if (shart)
+// if (shart) {}
+// let age = 18;
+// if(age >= 16) console.log("Passport berildi");
+// if(age >= 16) {
+// 	age = age - 5;
+// 	console.log(age);
+// }
+// if(){} , else
+// let age = 8;
+// if(age >= 16) console.log("Passport berildi");
+// else console.log("Passport berilmadi");
+// Yil fasllari
+// let season = "qish";
+// 1
+// if(season === "qish") console.log("sovuq");
+// if(season === "bahor") console.log("iliq");
+// if(season === "yoz") console.log("issiq");
+// if(season === "kuz") console.log("salqin");
+// if(season === "qish") console.log("sovuq");
+// else if(season === "bahor") console.log("iliq");
+// else if(season === "yoz") console.log("issiq");
+// else if(season === "kuz") console.log("salqin");
+// ichma-ich
+// let age = 15;
+// if(age >= 16) {
+// 	console.log("Passport berilsin");
+// 	if(age >= 18) {
+// 		console.log("Prava berilsin");
+// 	} else console.log("Prava berilmasin");
+// } else console.log("Passport va prava berilmasin");
+// logic operatorlar bilan if
+// let age = 20;
+// if(age >= 18) console.log("Prava va passport berilsin");
+// else if (age < 18 && age >= 16) console.log("Passport berilsin");
+// else console.log("Passport va prava berilmasin");
+// svetofor
+// let chiroq = "yashil";
+// if(chiroq === "qizil") console.log("To'xta");
+// else if(chiroq === "sariq") console.log("Tayyorlan");
+// else if(chiroq === "yashil") console.log("Yur");
+// ternary operator
+// ? => if
+// : => else
+// let age = 15;
+// age >= 16
+//   ? console.log("Passport berilsin")
+//   : console.log("Passport berilmasin");
+// svetofor => ternary
+// let chiroq = "yashila";
+// chiroq === "qizil" ? console.log("To'xta") :
+// chiroq === "sariq" ? console.log("Tayyorlan") :
+// chiroq === "yashil" ? console.log("Yur") : console.log("Noto'g'ri chiroq");
+// console.log(0 || 1);
+// console.log(0 ?? 1);
+// console.log(null || 1);
+// console.log(null ?? 1);
+// console.log("" || 1);
+// console.log("" ?? 1);
+// console.log(undefined || 1);
+// console.log(undefined ?? 1);
+// console.log(NaN || 1);
+// console.log(NaN ?? 1);
+// let result;
+// let a = 2;
+// let b = 2;
+// a + b < 4 ? (result = "Below") : (result = "Over");
+// console.log(result);
+// let message;
+// let login = "8776";
+// login == "Employee"
+//   ? (message = "Hello")
+//   : login == "Director"
+//   ? (message = "Greetings")
+//   : login == ""
+//   ? (message = "No login")
+//   : (message = "");
+
+// console.log(message);
+
+
+
+
+//HomeTask 
+//no1
+
+// let number = -100
+// if ( number < 0){
+//     console.log(number + 1);
+// }else  console.log( number);
+
+
+//==========================================================================
+//no2
+
+// function getNumber (n)  {
+//     if ( n < 0){
+//         console.log(n + 1);
+//     }else{
+//         console.log(n - 2);
+//     }
+// }
+// getNumber (10)
+
+//============================================================================
+// no3
+
+// function getNumber (n)  {
+//     if ( n < 0){
+//         console.log(n + 1);
+//     }else if ( n > 0){
+//         console.log(n - 2);
+//     }else if ( n === 0){
+//         console.log( n = 10);
+//     }
+// }
+// getNumber (22)
+
+
+//=============================================================================
+// no4
+
+// let a = 10;
+// let b = 10;
+
+// if ( a !== b){
+//     console.log(a + b);
+// }else{
+//     console.log( `${a ,b = 0} `);
+// }
+
+
+// ==========================================================================
+// no5
+
+
+
+// console.log(Math.max(5,6,7,8,33,44,55,69,88,55,44));
+
+
+//============================================================================
+// no6
+
+
+// console.log(Math.min(5,6,7,8,33,44,55,69,88,55,44));
+
+//===========================================================================
+// no7
+
+
+
+
+
