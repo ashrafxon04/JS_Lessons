@@ -169,6 +169,79 @@
 //===========================================================================
 // no7
 
+// Musbat manfiy va juft toqlikka tekshirish
+// let number = 7;
+// if(number >= 0) {
+// 	if(number % 2 === 0) console.log("Musbat juft");
+// 	else console.log("Musbat toq");
+// } else console.log("Manfiy");
+// console.log(number);
+// number >= 0
+//   ? number % 2 === 0
+//     ? console.log("Musbat juft")
+//     : console.log("Musbat toq")
+//   : console.log("Manfiy");
+// console.log(number);
+
+// ================================================================================
+//no8
+
+// Kabisa yili
+// Kabisa yili => 366
+// Kabisa yili emas => 365
+// Kabisa yili => yil % 4 === 0
+// Yil 100 lik =>  Kabisa yili => yil % 400 === 0
+
+// let yil = 16;
+// if (yil % 400 === 0) {
+//   console.log(366);
+// } else if (yil % 4 === 0 && yil % 100 !== 0) console.log(366);
+// else console.log(365);
+
+// yil % 400 === 0
+//   ? console.log(366)
+//   : yil % 4 === 0 && yil % 100 !== 0
+//   ? console.log(366)
+//   : console.log(365);
+
+// =====================================================================================
+// no9
+
+// let number = 102; // 1 - 999
+// if (number < 1000) {
+//   if (number % 2 === 0) {
+//     if (number >= 100) {
+//       console.log("Uch xonali juft son");
+//     } else if (number >= 10) {
+//       console.log("Ikki xonali juft son");
+//     } else console.log("Bir xonali juft son");
+//   } else {
+//     if (number >= 100) {
+//       console.log("Uch xonali toq son");
+//     } else if (number >= 10) {
+//       console.log("Ikki xonali toq son");
+//     } else console.log("Bir xonali toq son");
+//   }
+// }
+
+// =======================================================================================
+// no10
+
+// number < 1000
+//   ? number % 2 === 0
+//     ? number >= 100
+//       ? console.log("Uch xonali juft son")
+//       : number >= 10
+//       ? console.log("Ikki xonali juft son")
+//       : console.log("Bir xonali juft son")
+//     : number >= 100
+//     ? console.log("Uch xonali toq son")
+//     : number >= 10
+//     ? console.log("Ikki xonali toq son")
+//     : console.log("Bir xonali toq son")
+//   : console.log("1000 dan katta son kiritildi");
+
+
 
 
 
