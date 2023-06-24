@@ -172,6 +172,3 @@
 //     return `Siz ${desc[userInput]} vs Kompyuter ${desc[randomNumber]} => Siz yutdingiz`;
 // }
 // console.log(gameStone(userInput));
-
-let num = 1e5
-console.log(num);
