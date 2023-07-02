@@ -1,9 +1,10 @@
 //! String creation
 // const str1 = "webbrain";
-// const str2 = 'webbrain';
-// const str3 = `webbrain`;
+// const str2 = 'academy';
+// const str3 = `webbrain ${str2}`;
 // const str4 = new String("webbrain");
 // console.log(str1, str2, str3, str4);
+// console.log(str4);
 //! Escape character
 // const title1 = "Welcome to 'Webbrain'";
 // const title2 = 'Welcome to "Webbrain"';
@@ -24,10 +25,10 @@
 //? Oldin => 1
 // let str1 = "Webbrain";
 // let str2 = "Webbrain";
-// let str3 = "Wya";
+// let str3 = "Zya";
 // let str4 = "Aebbrain";
 // let str5 = "";
-// console.log(str2.localeCompare(str3));
+// console.log(str1.localeCompare(str4));
 //! Accessing
 //! Mutable vs immutable
 // const title = "Webbrain";
@@ -55,7 +56,7 @@
 // console.log("a".charCodeAt());
 // console.log(String.fromCharCode(97));
 //! str.length
-// let title = "wba ";
+// let title = "wabbrain academy";
 // console.log(title.length);
 //! toUpperCase(), toLowerCase()
 // let title = "wba";
@@ -114,7 +115,7 @@
 //! substr(startIndex, length)
 // const title = "Webbrain Academy";
 // console.log(title.substr(0, 8));
-// console.log(title.substr(0, 2));
+// console.log(title.substr(0, -2));
 // console.log(title);
 //! substring(startIndex, endIndex)
 // const title = "Webbrain Academy";
@@ -124,7 +125,7 @@
 // console.log(title.substring(0, -2));
 // console.log(title);
 //! split()
-// const title = "Webb/rain/Aca/demy";
+// const title = "Webbrain Academy";
 // console.log(title.split());
 // console.log(title.split(""));
 // console.log(title.split(" "));
