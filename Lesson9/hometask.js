@@ -122,3 +122,101 @@
 
 // no8
 
+// 8. Write a JavaScript function to capitalize the first letter of a string.
+// Test Data :
+// console.log(capitalize('js string exercises'));
+// "Js string exercises"
+
+//==>
+
+// capitalize = function(str1){
+//     return str1.at(0).toUpperCase()+ str1.substring(1);
+//   }
+      
+//    console.log(capitalize('js string exercises'));
+
+//===================================================================
+
+// no9
+
+// const str = 'js string exercises' ;
+// const arr = str.split(" ");
+// for (var i = 0; i < arr.length; i++) {
+//     arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+
+// }
+// const str2 = arr.join(" ");
+// console.log(str2);
+
+//===================================================================
+
+// no10
+
+// 10. Write a JavaScript function that takes a string with both lowercase and upper case letters as a parameter. It converts upper case letters to lower case, and lower case letters to upper case.
+// Test Data :
+// console.log(swapcase('AaBbc'));
+// "aAbBC"
+
+//==>
+// swapcase = function swapcase(str) {
+//     return str.replace(/([a-z]+)|([A-Z]+)/g, function(match, chr) {
+//         return chr ? match.toUpperCase() : match.toLowerCase();
+//     });
+// }
+// console.log(swapcase('AaBbc'));
+
+
+//===========================================================================
+
+//no11
+
+// 11. Write a JavaScript function to convert a string into camel case.
+// Test Data :
+// console.log(camelize("JavaScript Exercises"));
+// console.log(camelize("JavaScript exercises"));
+// console.log(camelize("JavaScriptExercises"));
+// "JavaScriptExercises"
+// "JavaScriptExercises"
+// "JavaScriptExercises"
+
+//==>
+// camelize = function camelize(str) {
+//     return str.replace(/\W+(.)/g, function(match, chr)
+//      {
+//           return chr.toUpperCase();
+//       });
+//   }
+
+// console.log(camelize("JavaScript Exercises"));
+// console.log(camelize("JavaScript exercises"));
+// console.log(camelize("JavaScriptExercises"));
+
+//===============================================================
+
+// no12
+// 12. Write a JavaScript function to uncommelize a string.
+// Test Data :
+// console.log(uncamelize('helloWorld'));
+// console.log(uncamelize('helloWorld','-'));
+// console.log(uncamelize('helloWorld','_'));
+// "hello world"
+// "hello-world"
+// "hello_world"
+
+// ==>
+// function uncamelize(str, separator) {
+//     // Assume default separator is a single space.
+//     if(typeof(separator) == "undefined") {
+//       separator = " ";
+//     }
+//     // Replace all capital letters by separator followed by lowercase one
+//     var str = str.replace(/[A-Z]/g, function (letter) 
+//     {
+//       return separator + letter.toLowerCase();
+//     });
+//     // Remove first separator
+//     return str.replace("/^" + separator + "/", '');
+//   }
+//   console.log(uncamelize('helloWorld'));
+//   console.log(uncamelize('helloWorld','-'));
+//   console.log(uncamelize('helloWorld','_'));
