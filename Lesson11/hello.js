@@ -77,7 +77,7 @@
 // })
 // console.log(search);
 //? 2
-// const arr = [1, 6, 7, 5, 2, 3];
+// const arr = [1, 1, 6, 5, 2, 3];
 // const search = arr.find((element, index, array) => {
 // 	return element > 2;
 // })
@@ -163,8 +163,8 @@
 // 	return element % 2 === 0 ? "Juft" : "Toq"
 // });
 // console.log(result, "result");
-// const arr = [1, 6, 2, 7, 5, 2, 3];
 //? 2
+// const arr = [1, 6, 2, 7, 5, 2, 3];
 // let result = [];
 // arr.forEach((element, index, array) => {
 // 	element % 2 === 0 ? result.push("Juft") : result.push("Toq")
