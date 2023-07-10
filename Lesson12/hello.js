@@ -81,13 +81,13 @@
 
 // ! CRUD => Create Read Deleat Update
 
-const students = [
-  { id: 1, fulname: "Yaxyoyev Ashrafxn", age: 19 },
-  { id: 2, fulname: "Tursunmahammatov Khojakbar", age: 16 },
-  { id: 3, fulname: "Najmiddinov Nodirbek", age: 20 },
-  { id: 4, fulname: "Abdullayev Nurullo", age: 22 },
-  { id: 5, fulname: "Abdurhamonov Abdurahm", age: 15 },
-];
+// const students = [
+//   { id: 1, fulname: "Yaxyoyev Ashrafxn", age: 19 },
+//   { id: 2, fulname: "Tursunmahammatov Khojakbar", age: 16 },
+//   { id: 3, fulname: "Najmiddinov Nodirbek", age: 20 },
+//   { id: 4, fulname: "Abdullayev Nurullo", age: 22 },
+//   { id: 5, fulname: "Abdurhamonov Abdurahm", age: 15 },
+// ];
 
 // ! Read  ==> Tartiblash saralash va qaysidir element bo'yicha sort qilish hisoblanadi.
 // ? age larni tartib buyicha chiqarish
@@ -104,7 +104,7 @@ const students = [
 // const search = (str) => {
 //   return students.filter(s => s.fulname.toLowerCase().includes(str.toLowerCase()));
 // };
-// console.log(search("ash"));
+// console.log(search("XON"));
 
 // ! Delete
 // ? id buyicha delete qlish 
@@ -112,7 +112,7 @@ const students = [
 //   let result = students.filter(s => s.id !== id);
 //   return result.sort((a, b) => a.id - b.id);
 // };
-// console.log(deleteUser(2));
+// console.log(deleteUser(1));
 
 // ! Create 
 // ? new user qo'shish va yaratish
@@ -131,9 +131,30 @@ const students = [
 // };
 // console.log(updateUser(1, "Yaxyoyev Ashrafxon"));
 
+//  ! Distructure => qayta qurish 
+// ! Object distructure
+// ? 1 holat
+// const obj = { name: "Wba", title: 'Academy'};
+// const {name , title} = obj;
+// console.log(title);
+// console.log(name);
+// ? 2 holat bir xil key larga boshqa nom berib chiqarish
+// const obj = { name: "Wba", title: 'Academy'}
+// const name = 'Webbrain'
+// const {name : newName , title ,} = obj
+// console.log(name);
+// console.log(newName);
+// ? 3 holat ichma ich objectlarni distructure qlish
+// const obj = { name: "Wba", title: 'Academy', info: { rooms: 2, windows: 10 } }
+// const {name:newName , title , info: {rooms , windows} } = obj;
+// console.log(rooms);
+// console.log(windows);
 
-
-
-
+// ! Array distructure 
+// const fruits = [ "banana" , "apple" , "kiwi" , "orangge" , "grapes"];
+// const [banan , olma ,...mevalar] = fruits;
+// console.log(banan);
+// console.log(olma);
+// console.log(mevalar);
 
 
