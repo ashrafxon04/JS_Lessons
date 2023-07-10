@@ -251,3 +251,180 @@
 // const arr1 = Array.from("12345", (v) => v * 2);
 // const arr2 = Array.from([1,2,3], (v) => v + 1)
 // console.log(arr2);
+
+
+//! ARRAY 2/2
+
+// ? filter( (value , index , array) => {} );
+// ? 1
+// const arr = [1, 2, 3, 4, 5, 6];
+// arr.filter((value, index, array) => {
+//     console.log(value);
+// });
+// ? 2
+// const fruits = ['apple', 'orange', 'banana', 'kivi'];
+// const filtering = fruits.filter(value => {
+//     return value.length > 5;
+// })
+// console.log(filtering);
+// ? 3
+// const guys = [
+//     { id: 1, name: 'Mexroj', age: 17 },
+//     { id: 2, name: 'Suxrob', age: 20 },
+//     { id: 3, name: 'Nodir', age: 19 },
+//     { id: 4, name: 'Sarvar', age: 15 },
+// ];
+// const filtering = guys.filter(value  => {
+//     return value.age >= 18;
+// })
+// console.log(filtering);
+
+// ? sort((a ,b) => return);
+// ? 1
+// const arr = [1 , 2 , 3, 4,5,6,7 ,8];
+// const sorting = arr.sort();
+// console.log(sorting);
+// ? 2
+// const arr = [11,13, 22, 34, 16, 15, 17, 28];
+// const newArr = arr.sort((a ,b) =>{
+//     return a- b
+// })
+// console.log(newArr);
+// ? 3
+// const fruits = ['apple', 'orange', 'banana', 'kivi'];
+// const sorting = fruits.sort();
+// console.log(sorting);
+// ? 4
+// const fruits = ['apple', 'Orange', 'banana', 'kivi'];
+// const sorting = fruits.sort((a, b) =>{
+//     return a.localeCompare(b);
+// });
+// console.log(sorting);
+// ? 5
+// const guys = [
+//     { id: 1, name: 'Mexroj', age: 17 },
+//     { id: 2, name: 'Suxrob', age: 20 },
+//     { id: 3, name: 'Nodir', age: 19 },
+//     { id: 4, name: 'Sarvar', age: 15 },
+// ];
+// const sorting = guys.sort((a, b) => {
+//    return a.age - b.age;
+// })
+// console.log(sorting);
+
+// ? find((element , index , array) => {});
+// ? 1
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8];
+// const finding = arr.find((element) => {
+//     return element === 6;
+// })
+// console.log(finding);
+// ? 2
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8];
+// const finding = arr.find((element) => {
+//     return element > 2;
+// })
+// console.log(finding);
+
+// ? findIndex((element , index , array) => {});
+// ? 1
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8];
+// const finding = arr.findIndex((element) => {
+//     return element === 2;
+// })
+// console.log(finding);
+
+// ? findLastIndex((element , index , array) => {});
+// ? 1
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8];
+// const finding = arr.findLastIndex((element) => {
+//     return element === 5;
+// })
+// console.log(finding);
+
+// ? forEach(( element , index , array) => {});
+// ? 1
+// const arr = [1, 2, 3, 4, 5, 6, 7, 8];
+// let sum = 0;
+// const res = arr.forEach((element) => {
+//     return sum += element
+// });
+// console.log(sum);
+
+// ? map((element , index , array) => {});
+// ? 1
+// const arr = [1, 3, 3, 4, 7, 6, 7, 8];
+// const res = arr.map((element , index ,array) => {
+//    return element % 2 === 0 ? 'Juft son' : 'Toq son'
+// });
+// console.log(res ,"res");
+
+// ? reduce((curr , prev) => {});
+// ? 1
+// const arr = [1, 3, 3, 4, 7, 6, 7, 8];
+// const newArray = arr.reduce((curr, prev) => {
+//     return curr * prev
+// })
+// console.log(newArray);
+
+// ? every((element , index , array) => {});
+// ? 1
+// const arr = [1, 3, 3, 4, 7, 6, 7, 8];
+// const equall = arr.every(element => element > 0);
+// console.log(equall);
+
+// ? some((element , index , array) => {});
+// ? 1
+// const arr = [1, 3, 3, 4, 7, 6, 7, 8];
+// const equall = arr.some(element => element % 2 === 0);
+// console.log(equall);
+
+// ? fill(item , startingIndex , endingIndex);
+// ? 1
+// const arr = [1, 3, 3, 4, 7, 6, 7, 8];
+// const filling = arr.fill('bosh son' , 3  , 5)
+// console.log(filling);
+
+// ? copyWithin(startingIndex , copyStart , copyEnd);
+// ? 1
+// const arr = [1, 3, 3, 4, 7, 6, 7, 8];
+// const copiyNum = arr.copyWithin(0 , 2 ,5)
+// console.log(copiyNum);
+
+// ? flat();
+// ? 1
+// const arr =[ 1,[ 2, [3]]];
+// const arraysOf = arr.flat(2)
+// console.log(arraysOf);
+// ? 2
+// const arr = [1,[2,[5,[5,[7,[8,[9,[2,[10]]]]]]]]];
+// const ayyaysOf = arr.flat(Infinity);
+// console.log(ayyaysOf);
+
+// ? newSet();
+// ? 1
+// const arr = [1, 3, 3, 4, 7, 4, 5, 5];
+// const newSatting = new Set(arr);
+// console.log(newSatting);
+
+// ? newMap();
+// ?1 
+// const map = new Map([
+//   [false, "webbrain",],
+//   ["title", "IT Center"],
+//   [33 ,33]
+// ]);
+// console.log(map);
+// console.log(map.keys());
+// console.log(map.values());
+// console.log(map.entries());
+
+//? Array.from()
+// ? 1
+// const arr1 = Array.from("12345", (v) => v * 2);
+// const arr2 = Array.from([1,2,3], (v) => v + 1)
+// console.log(arr1);
+
+
+
+
