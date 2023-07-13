@@ -102,7 +102,7 @@
 // }
 //? 2
 // set.forEach((v) => console.log(v));
- 
+
 //! WeakMap()
 // let weakMap = new WeakMap();
 // let obj = { name: "wba" };
@@ -141,7 +141,7 @@ let map = new Map();
 // map.title = "hello";
 // console.log(map, map.size); // bu huddi arrayda length kabi map da size degan tushuncha mavjud
 
-// ! mapda uzining methodlari mavjud va bular:set(); get();has();clear();
+// ! mapda uzining methodlari mavjud va bular:set(); get(); has(); clear();
 // 1.set(key, value); ==> malumot qo'shish va 2 ta parametr qabul qiladi
 // let arr = [1, 2, 3];
 // let obj = { name: "w" };
@@ -154,7 +154,7 @@ let map = new Map();
 // map.set(func, "some");
 // console.log(map, map.size);
 
-// 2.get(key); ==> malumotni obkeb beradi va 1 ta parametr qabul qiladi va ushaning valusni oob kebberadi
+//! 2.get(key); ==> malumotni obkeb beradi va 1 ta parametr qabul qiladi va ushaning valusni oob kebberadi
 // console.log(map.get("title"));
 // console.log(map.get(true));
 // console.log(map.get(2020));
@@ -163,15 +163,17 @@ let map = new Map();
 // console.log(map.get(func));
 // console.log(map.get("func"));
 
-// 3.has(key); ==> bu malumot bor yoki yo'qligini tekshiradi va 1 ta parametr oladi true / false qaytaradi
+//! 3.has(key); ==> bu malumot bor yoki yo'qligini tekshiradi va 1 ta parametr oladi true / false qaytaradi
 // console.log(map.has("title"));
 // console.log(map.has(arr));
 // console.log(map.has("title"));
 // console.log(map.has("titl"));
-// 4.delete(key); ==> bu ma'lumotlarni uchiradi va 1 ta parametr qabul qiladi
+
+//? 4.delete(key); ==> bu ma'lumotlarni uchiradi va 1 ta parametr qabul qiladi
 // map.delete("title");
 // console.log(map);
-// 5.clear(); ==> bu malumotlarni polniy tozalab tashaydi va parametr qabul qilmaydi
+
+//? 5.clear(); ==> bu malumotlarni polniy tozalab tashaydi va parametr qabul qilmaydi
 // map.clear();
 // console.log(map);
 
@@ -209,12 +211,9 @@ let map = new Map();
 // let obje = Object.fromEntries(map);
 // console.log(obje);
 
-
-
-
 // ! Sat?() => bu arrayga alternative arrayga nisbatan tez va xafsiroq bundan tashqari no duplicate => bitta value ni 2 marta ishlatib bulmidi
 let set = new Set();
-// console.log(set, set.size);
+console.log(set, set.size);
 
 // ! add(); has(); delete(); clear();
 //  //? add(value); => bu new Sat(); ga ma'lumot qushish vazifasini bajaradi va bitta parametr qabul qiladi
@@ -243,10 +242,11 @@ set.add(1);
 // for(let value of set) {
 // 	console.log(value);
 // }
-//  //? 2 usul:  forEach(); => bu ham yurib chiqadi. 
+
+//  //? 2 usul:  forEach(); => bu ham yurib chiqadi.
 // set.forEach((v) => console.log(v));
 
-//! WeakMap(); => bu map bn pashti birxil farqi shundaki bundagi uchgan malumotlar garbage collactiongga tushadi "map" de sa yuq bundan tashqaari faqat non premative tipdagi qymatlarni berib buladi primitivdan faqat "simvol" bersa buladi 
+//! WeakMap(); => bu map bn pashti birxil farqi shundaki bundagi uchgan malumotlar garbage collactiongga tushadi "map" de sa yuq bundan tashqaari faqat non premative tipdagi qymatlarni berib buladi primitivdan faqat "simvol" bersa buladi
 // let weakMap = new WeakMap();
 // let obj = { name: "wba" };
 // let arr = [1, 2, 3];
@@ -254,7 +254,6 @@ set.add(1);
 // weakMap.set(obj, "webbrain"); // set orqali malumot qushsa buladi lekin uni log qlsak nma qushilganini bilib bulmidi
 // weakMap.set(arr, "IT");
 // weakMap.set(func, "center");
-// weakMap.set(sym, "unique");
 // console.log(weakMap);
 // console.log(weakMap.get(obj)); // get orqali nma qymat qushilganini bilsak buladi
 // console.log(weakMap.get(arr));
@@ -271,6 +270,3 @@ set.add(1);
 // console.log(weakSet.has(obj)); // faqat has orqali berilgan ma'lumotlar bor yuqligini tekshirsak buladi.
 // console.log(weakSet.has(arr));
 // console.log(weakSet.has(func));
-
-
-
