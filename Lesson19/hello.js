@@ -7,6 +7,7 @@
 //       res.json()   //? bizada backend dan malumot olish uchun "jsonPlaceholder" degan sayt mavjud undagi ma'lumotlarni fetch(); orqali olsak buladi. 
 //     );
 //   };
+
   
 //   function getCachedData(func) {
 //       let cache = new Map();
