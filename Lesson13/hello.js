@@ -211,7 +211,7 @@ let map = new Map();
 // let obje = Object.fromEntries(map);
 // console.log(obje);
 
-// ! Sat?() => bu arrayga alternative arrayga nisbatan tez va xafsiroq bundan tashqari no duplicate => bitta value ni 2 marta ishlatib bulmidi
+// ! Set?() => bu arrayga alternative arrayga nisbatan tez va xafsiroq bundan tashqari no duplicate => bitta value ni 2 marta ishlatib bulmidi
 let set = new Set();
 console.log(set, set.size);
 
