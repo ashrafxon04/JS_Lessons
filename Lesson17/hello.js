@@ -10,6 +10,7 @@
 // };
 // getData("Webbrain");
 
+
 //! setTimeOut(callback, time) => funksiyani qanchadir vaqtdan keyin ishlatib beradigan mexanizmga setTimeOut(); deyiladi
 // setTimeout(() => {
 // 	console.log(1);
