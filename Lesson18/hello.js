@@ -34,6 +34,7 @@ function getData(customP1, customP2) {
 // getData.call(user2 ,"webbrain" , "talabasi");
 // getData.call(user3 ,"webbrain" , "talabasi");
 
+
 // ! bind(object,customP1,customP2)()  => bind bu funksiyaga kontext berish vazifasini bajaradi
 // !faqat buni yozgandan so'ng yana bir marta ishlati quyish kk.
 // let getAshrafxonsDate1 = getData.bind(user1 ,"webbrain" , "talabasi");
