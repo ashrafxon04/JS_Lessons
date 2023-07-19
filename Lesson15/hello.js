@@ -6,6 +6,7 @@
 //? Global scope => (let, var, const faqat {} yozilmagan bulsa)
 //? Functional scope => (var)
 //? Block scope => (let, const)
+
 //? 1
 // let name = "webbrain";
 // var name = "webbrain";
